@@ -13,7 +13,7 @@ This project uses machine learning to predict customer churn in a banking contex
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |-------|----------|-----------|--------|----------|---------|
 | **XGBoost** | 86.83% | 78.64% | 45.77% | 57.86% | 0.8591 |
-| **Random Forest** | 86.05% | 78.17% | - | - | 0.8575 |
+| **Random Forest** | 86.05% | 78.17% | 40,74% | 53,57% | 0.8575 |
 
 ## 🛠️ Implementation Details
 
