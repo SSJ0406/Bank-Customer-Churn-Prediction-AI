@@ -80,12 +80,27 @@ print(f"Average ROC-AUC: {cv_scores.mean():.4f}")
 - **XGBoost**: Gradient boosting implementation
 - **Matplotlib & Seaborn**: Data visualization
 
+## 📦 Requirements
+
+```
+pandas>=1.0.0
+numpy>=1.18.0
+scikit-learn>=0.23.0
+xgboost>=1.0.0
+matplotlib>=3.0.0
+seaborn>=0.10.0
+dataframe_image>=0.1.0
+jupyter
+```
+
 ## 🗂️ Repository Structure
 
 ```
 ├── Bank Customer Churn Prediction.csv   # Raw dataset
 ├── Bank Customer Churn Prediction.ipynb # Analysis notebook
 ├── README.md                            # Project documentation
+├── requirements.txt                     # Required dependencies
+├── requirements.txt                     # Required dependencies
 ```
 
 ## 🚀 Getting Started
@@ -98,7 +113,7 @@ cd Bank-Customer-Churn-Prediction-AI
 
 2. Install required dependencies:
 ```bash
-pip install scikit-learn pandas numpy xgboost matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 3. Run the Jupyter notebook:
